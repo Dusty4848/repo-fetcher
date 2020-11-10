@@ -38,10 +38,11 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## `yarn test --coverage`
+## `yarn test --coverage` or `yarn test --coverage --watchAll=false`
 
 Launches the test runner in the coverage watch mode.\
-From the projects root, drop the "/coverage/lcov-report/index.html" into your browser to see the corverage report
+From the projects root, drop the "/coverage/lcov-report/index.html" into your browser to see the corverage report.
+If the results table is empty, try running `yarn test --coverage --watchAll=false`
 
 ### `yarn build`
 
