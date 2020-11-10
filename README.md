@@ -6,17 +6,20 @@ After submitting, the app will reveal all public repositories for the respective
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and is using the TypeScript template. The package manager is yarn. It's using Redux for state management, styled-components as a styling library and the Atomic Design Methodology as help for the project structure.
 Unit tests have been implemented for non-component logic such as to test redux and utility functions. React-testing-library has been used to do intergration testing from a users perspective.
 
+## Development Version
+- **If not done already:** Clone the repo via `git clone <url>`
+- Move to the projects folder and run `yarn` to install all required packages
+- Then, run `yarn start` to start up the development server
+- The app should open in the browser
+
 ## Production Build
 - **If not done already:** Clone the repo via `git clone <url>`
+- **If not done already:** Move to the projects folder and run `yarn` to install all required packages
 - From within the project folder run `yarn build`
 - Optional: If not done already, add a static server via `yarn global add serve`
 - Serve the build via `serve -s build` and access the app via the shown URL
 
-## Development Version
-- **If not done already:** Clone the repo via `git clone <url>`
-- From within the project folder run `yarn` to install all required packages
-- Then, run `yarn start` to start up the development server
-- The app should open in the browser
+
 
 # Available Scripts Overview
 
